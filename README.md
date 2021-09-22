@@ -2,7 +2,7 @@
 Yes, it's possible with just few lines of code!<br>
 I did not find anything on my search engine, so here it is!<br>
 
-Contents of file `torrc`:
+### TOR Configuration File
 ```c
 AvoidDiskWrites 1
 HiddenServiceDir EMPTY_DIR_PATH
@@ -12,7 +12,7 @@ Yes, `EMPTY_DIR_PATH` does not need to be empty, use your old yet delicious onio
 1502 is onion's port (exclusive to TOR only!)<br>
 8080 is server's port (localhost!)<br>
 
-basic web server code:
+### Server Code (example)
 ```js
 var WebSocket = require('ws');
 var vServer = new WebSocket.Server({
