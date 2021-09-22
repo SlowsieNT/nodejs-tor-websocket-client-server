@@ -2,14 +2,14 @@
 Yes, it's possible with just few lines of code!<br>
 I did not find anything on my search engine, so here it is!<br>
 
-torrc:
+Contents of file `torrc`:
 ```c
 AvoidDiskWrites 1
 HiddenServiceDir EMPTY_DIR_PATH
 HiddenServicePort 1502 8080
 ```
-1502 is onion's port (exclusive to TOR only!)
-8080 is server's port (localhost!)
+1502 is onion's port (exclusive to TOR only!)<br>
+8080 is server's port (localhost!)<br>
 
 basic web server code:
 ```js
