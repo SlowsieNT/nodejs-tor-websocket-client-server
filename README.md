@@ -9,7 +9,7 @@ HiddenServiceDir EMPTY_DIR_PATH
 HiddenServicePort 1502 8080
 ```
 Yes, `EMPTY_DIR_PATH` does not need to be empty, use your old yet delicious onion!<br>
-1502 is onion's port (exclusive to TOR only!)<br>
+1502 is onion's port (exclusive to Tor only!)<br>
 8080 is server's port (localhost!)<br>
 
 ### Server Code (example)
