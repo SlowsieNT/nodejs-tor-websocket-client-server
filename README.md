@@ -33,3 +33,20 @@ vServer.on('connection', function(vWS) {
 	});
 });
 ```
+
+### Client Code (example)
+```js
+var host = "aaaaaaaaaaaaaaaaaaaaaaaaaaa.onion";
+var port = 1502;
+var socket = CreateTorWebSocket(host, port);
+
+socket.on('open', function () {
+	console.log('"open" event!');
+	socket.send('ping');
+});
+
+socket.on('message', function (data, flags) {
+	console.log('received %j %j', data, flags);
+	//socket.close();
+});
+```
