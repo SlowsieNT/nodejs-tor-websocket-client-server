@@ -1,4 +1,4 @@
-## WebSocket on TOR?
+## WebSocket on Tor?
 Yes, it's possible with just few lines of code!<br>
 I did not find anything on my search engine, so here it is!<br>
 
