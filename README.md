@@ -38,6 +38,7 @@ vServer.on('connection', function(vWS) {
 ```js
 var host = "aaaaaaaaaaaaaaaaaaaaaaaaaaa.onion";
 var port = 1502;
+// use require("./index.js") or whatever to import CreateTorWebSocket
 var socket = CreateTorWebSocket(host, port);
 
 socket.on('open', function () {
