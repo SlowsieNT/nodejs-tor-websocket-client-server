@@ -2,7 +2,7 @@
 Yes, it's possible with just few lines of code!<br>
 I did not find anything on my search engine, so here it is!<br>
 
-### TOR Configuration File (yes, it's as usual)
+### Tor Configuration File (yes, it's as usual)
 ```c
 AvoidDiskWrites 1
 HiddenServiceDir EMPTY_DIR_PATH
